@@ -34,6 +34,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/WatchDogHeartbeat.msg"
   "msg/WatchDogStatus.msg"
   "msg/Waypoints.msg"
+  "msg/WaypointsArray.msg"
 )
 
 
