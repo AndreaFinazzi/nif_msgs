@@ -15,8 +15,3 @@ float32 rr_tire_grip
 # geometric
 float32 bank_angle_rad
 float32 bank_angle_deg
-
-# force
-float32 lateral_force       # x axis wise
-float32 longitudinal_force  # y axis wise
-float32 tractive_force      # z axis wise

@@ -5,4 +5,4 @@
 std_msgs/Header header
 
 # perception results
-Perception3D[] perception_result
+Perception3D[] perception_list
