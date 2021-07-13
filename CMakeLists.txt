@@ -23,19 +23,24 @@ find_package(rosidl_default_generators REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+set(msg_files
+    "msg/AutonomyStatus.msg"
+    "msg/ControlCommand.msg"
+    "msg/Health.msg"
+    "msg/Perception3D.msg"
+    "msg/Perception3DArray.msg"
+    "msg/PowertrainStatus.msg"
+    "msg/SystemStatus.msg"
+    "msg/TerrainStatus.msg"
+    "msg/WatchDogHeartbeat.msg"
+    "msg/WatchDogStatus.msg"
+    "msg/Waypoints.msg"
+    "msg/WaypointsArray.msg"
+)
+
 rosidl_generate_interfaces(${PROJECT_NAME}
-        "msg/AutonomyStatus.msg"
-        "msg/ControlCommand.msg"
-        "msg/Health.msg"
-        "msg/Perception3D.msg"
-        "msg/Perception3DArray.msg"
-        "msg/PowertrainStatus.msg"
-        "msg/SystemStatus.msg"
-        "msg/TerrainStatus.msg"
-        "msg/WatchDogHeartbeat.msg"
-        "msg/WatchDogStatus.msg"
-        "msg/Waypoints.msg"
-        "msg/WaypointsArray.msg"
+        ${msg_files}
+        DEPENDENCIES builtin_interfaces geometry_msgs nav_msgs std_msgs vision_msgs
         )
 
 
