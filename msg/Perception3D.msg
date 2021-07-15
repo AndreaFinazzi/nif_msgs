@@ -21,5 +21,9 @@ float64 score
 # detection result in 3d
 vision_msgs/BoundingBox3D detection_result_3d
 
+# tracking result in 3d (x:longitudinal wise / y:lateral wise)
+float64 tracking_result_velocity_body_x_mps
+float64 tracking_result_velocity_body_y_mps
+
 # prediction
 nav_msgs/Path prediction_result # sampling time should be predefined.
