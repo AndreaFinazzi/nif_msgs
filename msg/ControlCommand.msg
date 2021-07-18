@@ -1,6 +1,11 @@
 std_msgs/Header header
 
 #
+# Priority level of the control command. The lower the number, the higher the priority.
+#
+uint8 order
+
+#
 # Brake pressure in Pascal [Pa] from 0 to 3447379 (res: 55158)
 #
 float32 braking_control_cmd
