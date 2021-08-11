@@ -11,4 +11,4 @@ string[] node_list
 WatchDogHeartbeat[] heartbeat_list
 
 # system normal flag
-bool is_system_healty
+bool is_system_healthy
