@@ -26,6 +26,7 @@ find_package(rosidl_default_generators REQUIRED)
 set(msg_files
     "msg/AutonomyStatus.msg"
     "msg/ControlCommand.msg"
+    "msg/FilterOut.msg"
     "msg/Health.msg"
     "msg/Perception3D.msg"
     "msg/Perception3DArray.msg"
