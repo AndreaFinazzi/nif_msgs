@@ -16,7 +16,7 @@ std_msgs/Float32 braking_control_cmd
 std_msgs/Float32 accelerator_control_cmd
 
 #
-# Steering angle in Degrees from -600 to 600 (res: 1)
+# Steering wheel's angle in Degrees from -600 to 600 (res: 1)
 #
 std_msgs/Float32 steering_control_cmd
 
