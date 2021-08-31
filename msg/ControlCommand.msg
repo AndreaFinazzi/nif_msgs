@@ -24,3 +24,13 @@ std_msgs/Float32 steering_control_cmd
 # Desired gear from -1 to 6
 #
 std_msgs/Int8 gear_control_cmd
+
+#
+# Desired steer(tyre) angle in Deg
+#
+std_msgs/Float32 desired_steer_cmd
+
+#
+# Desired velocity in m/s
+#
+std_msgs/Float32 desired_velocity_cmd
