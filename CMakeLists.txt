@@ -37,6 +37,7 @@ set(msg_files
     "msg/WatchDogStatus.msg"
     "msg/Waypoints.msg"
     "msg/WaypointsArray.msg"
+    "msg/NodeStatus.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
