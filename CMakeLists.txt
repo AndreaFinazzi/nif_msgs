@@ -27,7 +27,7 @@ set(msg_files
     "msg/AutonomyStatus.msg"
     "msg/ControlCommand.msg"
     "msg/FilterOut.msg"
-    "msg/Health.msg"
+    "msg/SystemHealth.msg"
     "msg/Perception3D.msg"
     "msg/Perception3DArray.msg"
     "msg/PowertrainStatus.msg"
@@ -40,8 +40,13 @@ set(msg_files
     "msg/NodeStatus.msg"
 )
 
+set(srv_files
+        "srv/RegisterNodeStatus.srv"
+        )
+
 rosidl_generate_interfaces(${PROJECT_NAME}
         ${msg_files}
+        ${srv_files}
         DEPENDENCIES builtin_interfaces geometry_msgs nav_msgs std_msgs vision_msgs
         )
 

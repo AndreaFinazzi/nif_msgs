@@ -8,4 +8,4 @@ std_msgs/Header header
 AutonomyStatus autonomy_status
 
 # health
-Health health_status
+SystemHealth health_status
