@@ -8,16 +8,21 @@ string[] node_list
 # nodes status list
 NodeStatus[] node_statuses_list
 
-# system normal flag
-bool is_system_healthy
+# system nominal flag
+bool system_failure false
+
+# Communications status
+bool communication_failure false
+
+#
+bool commanded_stop false
 
 # system status code
-
-uint8 SYSTEM_NOT_INITIALIZED = 0
-uint8 SYSTEM_INITIALIZED = 1
-uint8 SYSTEM_OK = 127
-uint8 SYSTEM_ERROR = 253
-uint8 SYSTEM_FATAL_ERROR = 254
+uint8 SYSTEM_NOT_INITIALIZED = 128
+uint8 SYSTEM_INITIALIZED = 64
+uint8 SYSTEM_OK = 0
+uint8 SYSTEM_ERROR = 200
+uint8 SYSTEM_FATAL_ERROR = 250
 uint8 SYSTEM_DEAD = 255
 
 uint8 system_status_code 0
