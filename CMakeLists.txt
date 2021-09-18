@@ -27,7 +27,7 @@ set(msg_files
     "msg/AutonomyStatus.msg"
     "msg/ControlCommand.msg"
     "msg/FilterOut.msg"
-    "msg/SystemHealth.msg"
+    "msg/SystemHealthStatus.msg"
     "msg/Perception3D.msg"
     "msg/Perception3DArray.msg"
     "msg/PowertrainStatus.msg"
@@ -38,6 +38,7 @@ set(msg_files
     "msg/Waypoints.msg"
     "msg/WaypointsArray.msg"
     "msg/NodeStatus.msg"
+        "msg/MissionStatus.msg"
 )
 
 set(srv_files
