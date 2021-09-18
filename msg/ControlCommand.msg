@@ -34,3 +34,8 @@ std_msgs/Float32 desired_steer_cmd
 # Desired velocity in m/s
 #
 std_msgs/Float32 desired_velocity_cmd
+
+#
+# Desired acceleration in m/s^2
+#
+std_msgs/Float32 desired_accel_cmd
