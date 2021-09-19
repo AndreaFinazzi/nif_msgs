@@ -37,7 +37,8 @@ set(msg_files
     "msg/WatchDogStatus.msg"
     "msg/Waypoints.msg"
     "msg/WaypointsArray.msg"
-    "msg/NodeStatus.msg"
+        "msg/NodeStatusShort.msg"
+        "msg/NodeStatus.msg"
         "msg/MissionStatus.msg"
 )
 
