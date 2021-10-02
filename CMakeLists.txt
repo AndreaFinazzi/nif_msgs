@@ -40,6 +40,7 @@ set(msg_files
         "msg/NodeStatusShort.msg"
         "msg/NodeStatus.msg"
         "msg/MissionStatus.msg"
+    "msg/LocalizationStatus.msg"
 )
 
 set(srv_files
