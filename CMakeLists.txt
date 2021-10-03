@@ -41,6 +41,8 @@ set(msg_files
         "msg/NodeStatus.msg"
         "msg/MissionStatus.msg"
     "msg/LocalizationStatus.msg"
+    "msg/AccelControlStatus.msg"
+    "msg/VelocityPlannerStatus.msg"
 )
 
 set(srv_files
