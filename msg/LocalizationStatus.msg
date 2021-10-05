@@ -12,6 +12,8 @@ float64 bottom_weight
 float64 top_weight
 string status
 
+float64 uncertainty
+
 # Sensor init
 bool top_initialized
 bool bottom_initialized
@@ -21,7 +23,8 @@ uint8 BEST_STATUS = 71
 uint8 SENSOR_FUSION = 72
 uint8 ONLY_TOP = 73
 uint8 ONLY_BOTTOM = 74
-uint8 GPS_HIGH_ERROR = 225
+uint8 GPS_HIGH_ERROR = 150
+uint8 UNCERTAINTY_TOO_HIGH = 225
 uint8 NO_CONVERGED = 235
 uint8 NO_SENSOR_INITIALIZED = 255
 
