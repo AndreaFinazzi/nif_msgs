@@ -6,7 +6,7 @@ uint8 track_flag 0
 uint8 veh_flag 0
 
 uint8 lap_count 0
-uint8 lap_distance 0
+uint16 lap_distance 0
 
 # mission status code
 uint16 MISSION_RACE = 0
