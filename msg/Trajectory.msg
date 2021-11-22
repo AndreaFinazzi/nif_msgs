@@ -3,4 +3,4 @@
 # Date : 2021.11.11
 
 std_msgs/Header header
-nif_msgs/TrajectoryPoint[] trajectory
+nif_msgs/TrajectoryPoint[] trajectory_pts
