@@ -54,6 +54,8 @@ set(msg_files
     "msg/Trajectory.msg"
     "msg/DetectedObject.msg"
     "msg/DetectedObjectArray.msg"
+    "msg/DynamicTrajectory.msg"
+    "msg/DynamicTrajectoryArray.msg"
 )
 
 set(srv_files
