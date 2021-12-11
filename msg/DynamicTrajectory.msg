@@ -3,7 +3,7 @@
 # Date : 2021.12.11
 
 std_msgs/Header header
-nav_msgs/Path trajectory_xy_array
+nav_msgs/Path trajectory_path
 float32[] trajectory_timestamp_array
 
 # Trajectory types
