@@ -1,9 +1,10 @@
 # DynamicTrajectory message for ros2
-# Author : chanyoung jung @ KAIST
-# Date : 2021.12.11
+# Author : chanyoung jung, hyunki seong @ KAIST
+# Date : 2021.12.11, 2021.12.12
 
 std_msgs/Header header
 nav_msgs/Path trajectory_path
+float32[] trajectory_velocity
 float32[] trajectory_timestamp_array
 
 # Trajectory types
