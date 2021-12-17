@@ -60,12 +60,18 @@ set(msg_files
 
 set(srv_files
         "srv/RegisterNodeStatus.srv"
+        "srv/GhostVehicleCreate.srv"
+        "srv/GhostVehicleGet.srv"
+        "srv/GhostVehicleUpdateVelocity.srv"
+        "srv/GhostVehicleUpdatePose.srv"
+        "srv/GhostVehicleUpdateMaptrack.srv"
+        "srv/GhostVehicleDestroy.srv"
         )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
         ${msg_files}
         ${srv_files}
-        DEPENDENCIES builtin_interfaces geometry_msgs nav_msgs std_msgs vision_msgs
+        DEPENDENCIES builtin_interfaces geometry_msgs nav_msgs std_msgs vision_msgs sensor_msgs
         )
 
 
