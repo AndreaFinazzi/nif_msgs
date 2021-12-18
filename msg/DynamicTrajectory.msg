@@ -6,7 +6,7 @@ std_msgs/Header header
 nav_msgs/Path trajectory_path
 float32[] trajectory_velocity
 float32[] trajectory_timestamp_array
-float32[] trajectory_progress
+float32[] trajectory_global_progress
 
 # Trajectory types
 int32 trajectory_type
