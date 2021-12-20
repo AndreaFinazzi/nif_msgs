@@ -23,3 +23,6 @@ vision_msgs/BoundingBox3D detection_result_3d
 
 # object velocity
 geometry_msgs/Twist obj_velocity_in_local # in local coordinate
+
+# object velocity
+geometry_msgs/Twist obj_velocity_in_global # in global coordinate
