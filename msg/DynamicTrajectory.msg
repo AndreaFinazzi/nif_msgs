@@ -13,6 +13,9 @@ int32 trajectory_type
 int32 TRAJECTORY_TYPE_PREDICTION = 0
 int32 TRAJECTORY_TYPE_PLANNING = 1
 
+# Collision
+bool has_collision
+
 # Longitudinal planning type
 int32 longi_planning_type
 int32 LONGITUDINAL_PLANNING_TYPE_STRAIGHT = 2 # Drive as fast as possible without ACC
