@@ -12,6 +12,7 @@ float32[] trajectory_global_progress
 int32 trajectory_type
 int32 TRAJECTORY_TYPE_PREDICTION = 0
 int32 TRAJECTORY_TYPE_PLANNING = 1
+int32 TRAJECTORY_TYPE_PREDICTION_BEYOND_LINE_OF_SIGHT = 16
 
 # Collision
 bool has_collision
