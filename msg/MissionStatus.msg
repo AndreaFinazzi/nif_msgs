@@ -35,5 +35,9 @@ uint16 MISSION_DEFAULT = 65535
 
 uint16 mission_status_code 65535
 
+uint16 zone_id 99
+
 # Maximum allowed linear velocity in meter per seconds
 float64 max_velocity_mps 0.0
+float64 long_acceleration_max 0.0
+float64 long_acceleration_min 0.0
