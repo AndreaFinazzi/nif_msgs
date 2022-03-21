@@ -3,6 +3,7 @@
 # Date : 2022.03.21
 
 std_msgs/Header header
+uint8 cid
 
 # 3D vectors
 geometry_msgs/Point world_position
@@ -28,9 +29,9 @@ int8 control_gear
 
 float64 norm_spline_position
 uint16 lap_count
-float64 current_lap_time
-float64 last_lap_time
-float64 best_lap_time
+uint64 current_lap_time
+uint64 last_lap_time
+uint64 best_lap_time
 
 uint8 leaderboard_position
 
