@@ -24,6 +24,7 @@ find_package(rosidl_default_generators REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 set(msg_files
+    "msg/ACTelemetryCarStatus.msg"
     "msg/AutonomyStatus.msg"
     "msg/ControlCommand.msg"
     "msg/FilterOut.msg"
