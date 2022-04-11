@@ -13,6 +13,8 @@ geometry_msgs/Vector3 linear_velocity_vector
 #angular_velocity_vector_local
 geometry_msgs/Twist twist_local
 
+geometry_msgs/PoseStamped odometry
+
 # # 4D vectors
 float64[] wheel_angular_speed
 float64[] slip_angle
